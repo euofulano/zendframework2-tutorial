@@ -3,16 +3,16 @@
     "packages": [
         {
             "name": "zendframework/zendframework",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "git://github.com/zendframework/zf2.git",
-                "reference": "release-2.0.3"
+                "reference": "release-2.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/zendframework/zf2/zipball/release-2.0.3",
-                "reference": "release-2.0.3",
+                "url": "https://github.com/zendframework/zf2/archive/release-2.0.4.zip",
+                "reference": "release-2.0.4",
                 "shasum": ""
             },
             "require": {
@@ -78,13 +78,15 @@
                 "zendframework/zendpdf": "ZendPdf for creating PDF representations of barcodes",
                 "zendframework/zendservice-recaptcha": "ZendService\\ReCaptcha for rendering ReCaptchas in Zend\\Captcha and/or Zend\\Form"
             },
+            "time": "2012-11-20 21:14:29",
             "bin": [
                 "bin/classmap_generator.php"
             ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.0-dev",
+                    "dev-develop": "2.1-dev"
                 }
             },
             "installation-source": "dist",
@@ -93,7 +95,16 @@
                     "Zend\\": "library/",
                     "ZendTest\\": "tests/"
                 }
-            }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 2",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "framework",
+                "zf2"
+            ]
         }
     ],
     "packages-dev": null,
