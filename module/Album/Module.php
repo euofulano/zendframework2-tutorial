@@ -2,8 +2,6 @@
 
 namespace Album;
 
-use Zend\Crypt\PublicKey\Rsa\PublicKey;
-
 use Album\Model\Album;
 use Album\Model\AlbumTable;
 use Zend\Db\ResultSet\ResultSet;
